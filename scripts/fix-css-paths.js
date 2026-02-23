@@ -8,18 +8,19 @@ const getRoot = () => hexo.config.root || '/';
 
 hexo.extend.filter.register('after_render:html', function (str) {
   const root = getRoot();
-  if (root === '/') return str;
-
   const title = hexo.config.title || 'Blog';
 
-  // Fix all hardcoded src="/js/..." and href="/css/..." paths
-  str = str.replace(/\bsrc="\/js\//g, `src="${root}js/`);
-  str = str.replace(/\bhref="\/css\//g, `href="${root}css/`);
+  // Fix all hardcoded src="/js/..." and href="/css/..." paths for subpath deployments
+  if (root !== '/') {
+    str = str.replace(/\bsrc="\/js\//g, `src="${root}js/`);
+    str = str.replace(/\bhref="\/css\//g, `href="${root}css/`);
+  }
 
-  // Add missing CSS links after shiki.css
+  // Add missing CSS links after shiki.css (needed for both local and deployed)
+  const shikiHref = `href="${root}css/shiki/shiki.css">`;
   str = str.replace(
-    `href="${root}css/shiki/shiki.css">`,
-    `href="${root}css/shiki/shiki.css">\n` +
+    shikiHref,
+    shikiHref + '\n' +
     `<link rel="stylesheet" href="${root}css/shiki/shiki-classes.css">\n` +
     `<link rel="stylesheet" href="${root}css/custom.css">`
   );

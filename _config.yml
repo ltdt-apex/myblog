@@ -64,7 +64,7 @@ markdown_exit:
       rose: rose-pine
     style_to_class:
       enable: true
-      css_output_path: public/css/shiki/shiki-classes.css
+      css_output_path: source/css/shiki/shiki-classes.css
   render_options:
     html: true
     xhtmlOut: false
