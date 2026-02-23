@@ -10,3 +10,4 @@
 .content p{font-size:0.9rem}
 .article-licensing{font-family:"Inter",sans-serif;font-size:0.9rem}
 mjx-container.MathJax{font-size:100%!important;display:inline!important;line-height:0!important}
+.code-expand-btn iconify-icon{pointer-events:none}
