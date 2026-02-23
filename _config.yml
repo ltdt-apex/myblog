@@ -62,9 +62,6 @@ markdown_exit:
       tokyo: tokyo-night
       nord: nord
       rose: rose-pine
-    style_to_class:
-      enable: true
-      css_output_path: source/css/shiki/shiki-classes.css
   render_options:
     html: true
     xhtmlOut: false
