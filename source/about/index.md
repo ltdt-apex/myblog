@@ -23,14 +23,12 @@ cover: /img/index.webp
 
 Hello 👋 I am a software engineer currently actively looking for a job in Canada 🇨🇦. The roles I am looking for include software engineer, machine learning engineer, or even full-stack developer.
 
-You can check my portfolio here if you’re curious 👀
-
 In daily life, I love gaming 🎮, music 🎧, and competitive programming 🧠. I enjoy solving problems, thinking through tricky logic, and sometimes just grinding puzzles for fun.
 
 
 ### About This Blog
 
-In this blog, I will mainly post things related to my daily life ✍️
+In this blog, I will mainly post things related to my daily life.
 
 I write about things that I find interesting, mostly competitive programming notes and ideas 💡, gaming stuff 🎮,  or some random thoughts that pop into my head.
 
