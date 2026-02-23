@@ -1,0 +1,52 @@
+# ===================================================
+# gnix theme configuration
+# Docs: https://github.com/Efterklang/gnix-blog-theme
+# ===================================================
+
+# Navigation bar
+navbar:
+  menu:
+    HOME: /
+    ARCHIVES: /archives
+    TAGS: /tags
+    LINKS: /links
+    ABOUT: /about
+  links:
+    GitHub:
+      url: https://github.com/ltdt-apex
+      icon: ri:github-line
+
+# Footer
+footer:
+  links:
+    GitHub:
+      url: https://github.com/ltdt-apex
+      icon: ri:github-line
+  subdomains: {}
+  copyright: '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+# Article settings
+article:
+  licenses:
+    CC BY-NC 4.0:
+      url: https://creativecommons.org/licenses/by-nc/4.0/
+      icon: ri:copyright-line
+
+# Head / SEO
+head:
+  favicon: /img/favicon.svg
+  open_graph:
+    twitter_card: summary_large_image
+  rss: /atom.xml
+
+# CDN provider: host (self-hosted), jsdelivr, loli, bootcdn
+providers:
+  cdn: host
+
+# Search
+search:
+  type: insight
+
+# Plugins
+plugins:
+  busuanzi: false

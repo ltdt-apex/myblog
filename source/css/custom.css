@@ -1,0 +1,11 @@
+.cmd-wrapper{font-family:var(--font-mono);letter-spacing:.05em;color:var(--text);align-items:center;margin:1rem 0;font-weight:500;display:flex}
+.cmd-prompt{color:var(--green);user-select:none;margin-right:.5em}
+.cmd-cursor{color:var(--mauve);margin-left:2px;font-weight:700;animation:1s step-end infinite blink;display:inline-block}
+@keyframes blink{0%,to{opacity:1}50%{opacity:0}}
+.cover-image{height:auto;aspect-ratio:2.5/1}
+.main-content{max-width:900px}
+.navbar-item{font-size:1rem}
+.article-title{font-size:2.25rem}
+:root{--font-sans-serif:"Inter",sans-serif}
+.content p{font-size:0.9rem}
+.article-licensing{font-family:"Inter",sans-serif;font-size:0.9rem}
