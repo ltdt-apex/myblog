@@ -9,7 +9,7 @@ navbar:
     HOME: /
     ARCHIVES: /archives
     TAGS: /tags
-    LINKS: /links
+    # LINKS: /links
     ABOUT: /about
   links:
     GitHub:
