@@ -1,8 +1,10 @@
 ---
 title: Binary Trie
 date: 2026-02-23
-layout: page
-cover: /img/Sakura_Nene_Algorithms.png
+layout: post
+cover: /img/Sakura_Nene_Algorithms_crop.png
+tags:
+  - competitive programming
 ---
 
 1. Introduction

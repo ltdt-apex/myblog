@@ -2,7 +2,7 @@
 .cmd-prompt{color:var(--green);user-select:none;margin-right:.5em}
 .cmd-cursor{color:var(--mauve);margin-left:2px;font-weight:700;animation:1s step-end infinite blink;display:inline-block}
 @keyframes blink{0%,to{opacity:1}50%{opacity:0}}
-.cover-image{height:auto;aspect-ratio:2.5/1}
+.cover-image{width:100%;height:auto;aspect-ratio:2.5/1}
 .main-content{max-width:900px}
 .navbar-item{font-size:1rem}
 .article-title{font-size:2.25rem}
