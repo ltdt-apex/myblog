@@ -4,7 +4,8 @@ date: 2026-02-23
 layout: post
 cover: /img/Sakura_Nene_Algorithms_crop.png
 tags:
-  - competitive programming
+  - Competitive Programming
+  - Data Structure
 ---
 
 1. Introduction
@@ -154,8 +155,6 @@ tags:
                         trie.remove(p[l]);
                         l++;
                     }
-
-                    cout << l << " " << r << endl;
 
                     a = max(a,trie.maxXor(p[r+1]));
                     trie.insert(p[r+1]);
