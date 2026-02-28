@@ -27,8 +27,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       hexo-renderer-markdown-exit:
-        specifier: ^3.1.7
-        version: 3.1.7(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(@types/markdown-it@14.1.2)(hexo-util@4.0.0)(hexo@8.1.1(chokidar@3.6.0))(markdown-it@14.1.1)(shiki@3.22.0)
+        specifier: ^3.2.1
+        version: 3.2.1(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(@types/markdown-it@14.1.2)(hexo-util@4.0.0)(hexo@8.1.1(chokidar@3.6.0))(markdown-it@14.1.1)(shiki@3.22.0)
       hexo-renderer-stylus:
         specifier: ^3.0.1
         version: 3.0.1
@@ -212,17 +212,18 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@mdit/helper@0.22.2':
-    resolution: {integrity: sha512-i0mmN0S/BwR7zAKs9TnT9knmMVq3WGDJ3wO9PiETs0vUAwtcXIq5J0k8GAtGgKKTb7WTQuc19yt8uVQGVYfr2Q==}
-    engines: {node: '>= 18'}
+  '@mdit/helper@0.23.0':
+    resolution: {integrity: sha512-+bVlBaddNeX3PDUYH2GbMFjr5pb9PVglF4GpjHp06a0INyFuHm1ktOvwpaqd/5pdav+KR/7+rN6ApOVePSJhEw==}
+    engines: {node: '>= 20'}
     peerDependencies:
       markdown-it: ^14.1.0
     peerDependenciesMeta:
       markdown-it:
         optional: true
 
-  '@mdit/plugin-tab@0.23.1':
-    resolution: {integrity: sha512-Ln771SlMvTrecU0o15X5w2Tuyas2EkvFMaMxLJVAw3o5xa4AX7yp6DvaqqZMAkP2h9dzc/flRWLPBtgirVM2jg==}
+  '@mdit/plugin-tab@0.24.0':
+    resolution: {integrity: sha512-24S/xYdydZJepDH3ucWonG3gUqu0GCLA0RmhQ21NXT+PRdTLMSWSwz12fj0iF4HyaFBd1RDqV1qwCDsFdOQjHA==}
+    engines: {node: '>= 20'}
     peerDependencies:
       markdown-it: ^14.1.0
     peerDependenciesMeta:
@@ -618,8 +619,8 @@ packages:
     resolution: {integrity: sha512-qCjE1IdwgDgv65qyb0KMVCwCdSVAkH0vwAe9XihjvaKWkmb9dtt8DgErOdqCXn0HReSyWiEVP2BrLRj3gyHwOQ==}
     engines: {node: '>=12'}
 
-  hexo-renderer-markdown-exit@3.1.7:
-    resolution: {integrity: sha512-kjcfMZk8l520OjmyoT5yGBl53dxAXlJYwATNym1Cdk4mCKqvydk6G+GnFGJd4bPf08i+9Khi5Vo6KlVmoonYLw==}
+  hexo-renderer-markdown-exit@3.2.1:
+    resolution: {integrity: sha512-0W6qAI0V9HJtckBgAQGiPdBQfMGwgNPA92R+lTFiR2d3F2laNyZXG2QzKvrDoG803SzGT2p4Xw0IVaIqT7ulow==}
     peerDependencies:
       hexo: ^8.1.1
       hexo-util: ^4.0.0
@@ -1290,15 +1291,15 @@ snapshots:
   '@esbuild/win32-x64@0.27.3':
     optional: true
 
-  '@mdit/helper@0.22.2(markdown-it@14.1.1)':
+  '@mdit/helper@0.23.0(markdown-it@14.1.1)':
     dependencies:
       '@types/markdown-it': 14.1.2
     optionalDependencies:
       markdown-it: 14.1.1
 
-  '@mdit/plugin-tab@0.23.1(markdown-it@14.1.1)':
+  '@mdit/plugin-tab@0.24.0(markdown-it@14.1.1)':
     dependencies:
-      '@mdit/helper': 0.22.2(markdown-it@14.1.1)
+      '@mdit/helper': 0.23.0(markdown-it@14.1.1)
       '@types/markdown-it': 14.1.2
     optionalDependencies:
       markdown-it: 14.1.1
@@ -1730,9 +1731,9 @@ snapshots:
     dependencies:
       ejs: 3.1.10
 
-  hexo-renderer-markdown-exit@3.1.7(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(@types/markdown-it@14.1.2)(hexo-util@4.0.0)(hexo@8.1.1(chokidar@3.6.0))(markdown-it@14.1.1)(shiki@3.22.0):
+  hexo-renderer-markdown-exit@3.2.1(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(@types/markdown-it@14.1.2)(hexo-util@4.0.0)(hexo@8.1.1(chokidar@3.6.0))(markdown-it@14.1.1)(shiki@3.22.0):
     dependencies:
-      '@mdit/plugin-tab': 0.23.1(markdown-it@14.1.1)
+      '@mdit/plugin-tab': 0.24.0(markdown-it@14.1.1)
       hexo: 8.1.1(chokidar@3.6.0)
       hexo-util: 4.0.0
       markdown-exit: 1.0.0-beta.8
