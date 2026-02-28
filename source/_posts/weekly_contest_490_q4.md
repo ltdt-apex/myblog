@@ -2,7 +2,7 @@
 title: "[Weekly Contest 490] Q4"
 date: 2026-02-28
 layout: post
-cover: /img/Sakura_Nene_Algorithms_crop.png
+cover: /img/Sakura_Nene_Algorithms.png
 tags:
   - competitive programming
 ---
