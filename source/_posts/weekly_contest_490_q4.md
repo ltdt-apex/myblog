@@ -4,7 +4,7 @@ date: 2026-02-28
 layout: post
 cover: /img/Sakura_Nene_Algorithms.png
 tags:
-  - competitive programming
+  - Competitive Programming
 ---
 
 This is one of the most fun LeetCode problems I've seen in a long time. It doesn't require any particularly hard prerequisite concepts, data structures, or algorithms — just basic {% spoiler knapsack dp %} knowledge is enough to solve it.
