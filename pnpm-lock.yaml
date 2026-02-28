@@ -35,6 +35,9 @@ importers:
       hexo-server:
         specifier: ^3.0.0
         version: 3.0.0
+      hexo-spoiler:
+        specifier: ^1.7.4
+        version: 1.7.4
       hexo-theme-gnix:
         specifier: ^6.2.0
         version: 6.2.0(hexo-util@4.0.0)(hexo@8.1.1(chokidar@3.6.0))
@@ -629,6 +632,9 @@ packages:
     resolution: {integrity: sha512-u4s0ty9Aew6jV+a9oMrXBwhrRpUQ0U8PWM/88a5aHgDru58VY81mVrxOFxs788NAsWQ8OvsJtF5m7mnXoRnSIA==}
     engines: {node: '>=12.13.0'}
 
+  hexo-spoiler@1.7.4:
+    resolution: {integrity: sha512-1Z3Zh8MSvUxLv+cGxBhJdck8qKSv2pCZ0XktvW8u1ehERVgsJuYewJrdUSlZ/J4Qypo7th0Hkb/1kFh+u6kaLg==}
+
   hexo-theme-gnix@6.2.0:
     resolution: {integrity: sha512-RM0y9z6oo+3TBoJMtyrTSbdDS/ib0JzDWvsN0z2RsVcGy4ha7MWv2iIjp86euaWRdwg0xwm9zpvmaP2h8ltYGQ==}
     engines: {node: '>=14'}
@@ -763,13 +769,13 @@ packages:
     peerDependencies:
       markdown-exit: ^1.0.0-beta.6
 
-  markdown-exit-shiki@0.1.6:
-    resolution: {integrity: sha512-FYz64OysnKWwppDGdX4ym0zRvaK3MINdGUw9tw6RAD71espYVpAb2BdfSPk9QZvlTOnBkYNitbzBrRKgno8YsA==}
+  markdown-exit-shiki@0.3.0:
+    resolution: {integrity: sha512-203nS6hwVvjPuF4RV+3VSsyxyzv+aDx9wH34ZCquikDNEUI1WOF93I1TFDU1P0WDBUVvMFcvLvneme0GiyPJYQ==}
     peerDependencies:
-      '@shikijs/colorized-brackets': ^3.22.0
-      '@shikijs/transformers': ^3.22.0
-      markdown-exit: ^1.0.0-beta.7
-      shiki: ^3.22.0
+      '@shikijs/colorized-brackets': ^4.0.0
+      '@shikijs/transformers': ^4.0.0
+      markdown-exit: ^1.0.0-beta.8
+      shiki: ^4.0.0
 
   markdown-exit@1.0.0-beta.8:
     resolution: {integrity: sha512-LuwW1iurvRspcUJlgMk/QBC2is+aOqRDwseGQA3wYrUwadVvMYpxazx6ZKxxyIkLuQhV40M/3E4lU4qIavsAlA==}
@@ -1731,7 +1737,7 @@ snapshots:
       hexo-util: 4.0.0
       markdown-exit: 1.0.0-beta.8
       markdown-exit-mermaid: 2.2.0(markdown-exit@1.0.0-beta.8)
-      markdown-exit-shiki: 0.1.6(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(markdown-exit@1.0.0-beta.8)(shiki@3.22.0)
+      markdown-exit-shiki: 0.3.0(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(markdown-exit@1.0.0-beta.8)(shiki@3.22.0)
       markdown-it-abbr: 2.0.0
       markdown-it-anchor: 9.2.0(@types/markdown-it@14.1.2)(markdown-it@14.1.1)
       markdown-it-emoji: 3.0.0
@@ -1768,6 +1774,8 @@ snapshots:
       serve-static: 1.16.3
     transitivePeerDependencies:
       - supports-color
+
+  hexo-spoiler@1.7.4: {}
 
   hexo-theme-gnix@6.2.0(hexo-util@4.0.0)(hexo@8.1.1(chokidar@3.6.0)):
     dependencies:
@@ -1944,7 +1952,7 @@ snapshots:
     dependencies:
       markdown-exit: 1.0.0-beta.8
 
-  markdown-exit-shiki@0.1.6(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(markdown-exit@1.0.0-beta.8)(shiki@3.22.0):
+  markdown-exit-shiki@0.3.0(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(markdown-exit@1.0.0-beta.8)(shiki@3.22.0):
     dependencies:
       '@shikijs/colorized-brackets': 3.22.0
       '@shikijs/transformers': 3.22.0

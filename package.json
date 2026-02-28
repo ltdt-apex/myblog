@@ -22,6 +22,7 @@
     "hexo-renderer-markdown-exit": "^3.1.7",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
+    "hexo-spoiler": "^1.7.4",
     "hexo-theme-gnix": "^6.2.0",
     "hexo-theme-landscape": "^1.0.0",
     "markdown-exit-image": "^0.0.1",
