@@ -11,6 +11,8 @@ This is one of the most fun LeetCode problems I've seen in a long time. It doesn
 
 The trickiest (and most fun) part is figuring out how to recognize and convert it into a {% spoiler knapsack dp %} problem.
 
+<!-- more -->
+
 1. Introduction
     1. [Question](https://leetcode.com/problems/count-sequences-to-k/submissions/1933866045/) (Hard)
 

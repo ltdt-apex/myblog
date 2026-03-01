@@ -18,6 +18,8 @@ tags:
     3. Idea
         A binary trie stores all the numbers in a trie data structure. For each number, we can find the maximum XOR against all other numbers in $v$ in $O(b)$ time, where $b$ is the number of bits. This reduces the overall complexity to $O(N \cdot b)$.
 
+<!-- more -->
+
 2. Core Idea
     1. Property of Bits and XOR
         For two numbers $a$ and $b$, if the highest set bit of $a$ is greater than that of $b$, then $a > b$, e.g., $4(100_2) > 2(010_2)$. So to maximize the XOR of two numbers, we should prioritize making the highest bits equal to 1. For example, if $a=7(111_2)$, $b=3(011_2)$, and $c=5(101_2)$, then $a \oplus b = 4(100_2) > a \oplus c = 2(010_2)$, because $a$ and $b$ differ at a higher bit position than $a$ and $c$ do.
