@@ -7,7 +7,7 @@ tags:
   - Competitive Programming
 ---
 
-This is one of the most fun LeetCode problems I've seen in a long time. It doesn't require any particularly hard prerequisite concepts, data structures, or algorithms — just basic {% spoiler knapsack dp %} knowledge is enough to solve it.
+I haven't come across such a fun LeetCode problem in a long time. It doesn't require any particularly hard prerequisite concepts, data structures, or algorithms — just basic {% spoiler knapsack dp %} knowledge is enough to solve it.
 
 The trickiest (and most fun) part is figuring out how to recognize and convert it into a {% spoiler knapsack dp %} problem.
 
