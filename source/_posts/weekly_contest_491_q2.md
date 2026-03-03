@@ -7,7 +7,7 @@ tags:
   - Competitive Programming
 ---
 
-This is not a particularly hard DP question, yet somehow a surprising number of LeetCoders have decided it is greedy, and written explanations to "prove" it.
+This is not a hard question, but I find a surprising number of LeetCoders think it is a greedy question (which is not what I had in mind), and have written explanations to "prove" it.
 
 Let's take a look at their solutions and talk about what's right and wrong with their reasoning.
 
