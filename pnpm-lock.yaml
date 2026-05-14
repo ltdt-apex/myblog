@@ -48,8 +48,8 @@ importers:
         specifier: ^0.0.1
         version: 0.0.1(markdown-exit@1.0.0-beta.8)
       markdown-it-obsidian-callouts:
-        specifier: ^0.3.3
-        version: 0.3.3(markdown-it@14.1.1)
+        specifier: ^0.3.4
+        version: 0.3.4(markdown-it@14.1.1)
 
 packages:
 
@@ -280,8 +280,8 @@ packages:
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
 
-  '@ungap/structured-clone@1.3.0':
-    resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
+  '@ungap/structured-clone@1.3.1':
+    resolution: {integrity: sha512-mUFwbeTqrVgDQxFveS+df2yfap6iuP20NAKAsBt5jDEoOTDew+zwLAOilHCeQJOVSvmgCX4ogqIrA0mnyr08yQ==}
 
   '@unpic/pixels@1.3.0':
     resolution: {integrity: sha512-Xe3J4KU9m2NWCDZ9iwIIRYFe7VwkWEqGCy4yoKMEkjoxpcQ7TPxD+QmdTphv3yiTmrDMMIWYEEH+j4mT6dILTA==}
@@ -292,6 +292,7 @@ packages:
   '@xmldom/xmldom@0.9.8':
     resolution: {integrity: sha512-p96FSY54r+WJ50FIOsCOjyj/wavs8921hG5+kVMmZgKcvIKxMXHTrjNJvRgWa/zuX3B6t2lijLNFaOyuxUH+2A==}
     engines: {node: '>=14.6'}
+    deprecated: this version has critical issues, please update to the latest version
 
   a-sync-waterfall@1.0.1:
     resolution: {integrity: sha512-RYTOHHdWipFUliRFMCS4X2Yn2X8M87V/OpSqWzKKOGhzqyUxzyVmhHDH9sAvG+ZuQf/TAOFsLCpMw09I1ufUnA==}
@@ -764,18 +765,18 @@ packages:
     peerDependencies:
       markdown-exit: 1.0.0-beta.6
 
-  markdown-exit-mermaid@2.2.0:
-    resolution: {integrity: sha512-vxAnl6B2cWrGG40mza1NrjYcaEJM9+Lqox0UmYSuz3pvqkJlsEC4vmdF5xt8JLptv5xm6hQpboh82qoaAf84yA==}
+  markdown-exit-mermaid@2.2.3:
+    resolution: {integrity: sha512-u1nqCFVCKICFvvx71p/EcG3qHA9rKR5zsqbwyDxUI4leROTPhP/bccxNTq+5wMUxGt5V8pMXgn5uxTWNm2JvlQ==}
     peerDependencies:
-      markdown-exit: ^1.0.0-beta.6
+      markdown-exit: ^1.0.0-beta.9
 
-  markdown-exit-shiki@0.3.0:
-    resolution: {integrity: sha512-203nS6hwVvjPuF4RV+3VSsyxyzv+aDx9wH34ZCquikDNEUI1WOF93I1TFDU1P0WDBUVvMFcvLvneme0GiyPJYQ==}
+  markdown-exit-shiki@0.4.0:
+    resolution: {integrity: sha512-p/LMwTcWA41n3sLKWYEIGSCrqa0VNRZ6XHu+OuefYKZXOgdQR6r1a/+rVy+xP7GrXEnB4V6JDNzXR5eyoDusPA==}
     peerDependencies:
-      '@shikijs/colorized-brackets': ^4.0.0
-      '@shikijs/transformers': ^4.0.0
-      markdown-exit: ^1.0.0-beta.8
-      shiki: ^4.0.0
+      '@shikijs/colorized-brackets': ^4.0.2
+      '@shikijs/transformers': ^4.0.2
+      markdown-exit: ^1.0.0-beta.9
+      shiki: ^4.0.2
 
   markdown-exit@1.0.0-beta.8:
     resolution: {integrity: sha512-LuwW1iurvRspcUJlgMk/QBC2is+aOqRDwseGQA3wYrUwadVvMYpxazx6ZKxxyIkLuQhV40M/3E4lU4qIavsAlA==}
@@ -807,8 +808,8 @@ packages:
     peerDependencies:
       markdown-it: '>=12.0.0'
 
-  markdown-it-obsidian-callouts@0.3.3:
-    resolution: {integrity: sha512-XviZR/5aFmcGVvjUv2I0TidPIkc4RzAJg3cd5N1zJe/3eh2FLLiqt0ugyBlkOyKc2ydcp/q2iUGAZomxn7al+g==}
+  markdown-it-obsidian-callouts@0.3.4:
+    resolution: {integrity: sha512-v09j5LpNKOXlcjyxoGAOuhm+l+gZMzb1JCzSLbc4kz8hqRHQx04WDR7Kx1W2xvVIqtlZGFD1zOkEibX3DLXG0w==}
     peerDependencies:
       markdown-it: ^14.0.0
 
@@ -957,11 +958,11 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  oniguruma-parser@0.12.1:
-    resolution: {integrity: sha512-8Unqkvk1RYc6yq2WBYRj4hdnsAxVze8i7iPfQr8e4uSP3tRv0rpZcbGUDvxfQQcdwHt/e9PrMvGCsa8OqG9X3w==}
+  oniguruma-parser@0.12.2:
+    resolution: {integrity: sha512-6HVa5oIrgMC6aA6WF6XyyqbhRPJrKR02L20+2+zpDtO5QAzGHAUGw5TKQvwi5vctNnRHkJYmjAhRVQF2EKdTQw==}
 
-  oniguruma-to-es@4.3.4:
-    resolution: {integrity: sha512-3VhUGN3w2eYxnTzHn+ikMI+fp/96KoRSVK9/kMTcFqj1NRDh2IhQCKvYxDnWePKRXY/AqH+Fuiyb7VHSzBjHfA==}
+  oniguruma-to-es@4.3.6:
+    resolution: {integrity: sha512-csuQ9x3Yr0cEIs/Zgx/OEt9iBw9vqIunAPQkx19R/fiMq2oGVTgcMqO/V3Ybqefr1TBvosI6jU539ksaBULJyA==}
 
   open@8.4.2:
     resolution: {integrity: sha512-7x81NCL719oNbsq/3mh+hVrAWmFuEYUqrq/Iw3kUzH8ReypT9QQ0BLoJS7/G9k6N81XjW4qHWtjWwe/9eLy1EQ==}
@@ -1318,7 +1319,7 @@ snapshots:
     dependencies:
       '@shikijs/types': 3.22.0
       '@shikijs/vscode-textmate': 10.0.2
-      oniguruma-to-es: 4.3.4
+      oniguruma-to-es: 4.3.6
 
   '@shikijs/engine-oniguruma@3.22.0':
     dependencies:
@@ -1372,7 +1373,7 @@ snapshots:
 
   '@types/unist@3.0.3': {}
 
-  '@ungap/structured-clone@1.3.0': {}
+  '@ungap/structured-clone@1.3.1': {}
 
   '@unpic/pixels@1.3.0':
     dependencies:
@@ -1736,8 +1737,8 @@ snapshots:
       hexo: 8.1.1(chokidar@3.6.0)
       hexo-util: 4.0.0
       markdown-exit: 1.0.0-beta.8
-      markdown-exit-mermaid: 2.2.0(markdown-exit@1.0.0-beta.8)
-      markdown-exit-shiki: 0.3.0(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(markdown-exit@1.0.0-beta.8)(shiki@3.22.0)
+      markdown-exit-mermaid: 2.2.3(markdown-exit@1.0.0-beta.8)
+      markdown-exit-shiki: 0.4.0(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(markdown-exit@1.0.0-beta.8)(shiki@3.22.0)
       markdown-it-abbr: 2.0.0
       markdown-it-anchor: 9.2.0(@types/markdown-it@14.1.2)(markdown-it@14.1.1)
       markdown-it-emoji: 3.0.0
@@ -1948,11 +1949,11 @@ snapshots:
       blurhash: 2.0.5
       markdown-exit: 1.0.0-beta.8
 
-  markdown-exit-mermaid@2.2.0(markdown-exit@1.0.0-beta.8):
+  markdown-exit-mermaid@2.2.3(markdown-exit@1.0.0-beta.8):
     dependencies:
       markdown-exit: 1.0.0-beta.8
 
-  markdown-exit-shiki@0.3.0(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(markdown-exit@1.0.0-beta.8)(shiki@3.22.0):
+  markdown-exit-shiki@0.4.0(@shikijs/colorized-brackets@3.22.0)(@shikijs/transformers@3.22.0)(markdown-exit@1.0.0-beta.8)(shiki@3.22.0):
     dependencies:
       '@shikijs/colorized-brackets': 3.22.0
       '@shikijs/transformers': 3.22.0
@@ -1987,7 +1988,7 @@ snapshots:
       markdown-it: 14.1.1
       mathjax-full: 3.2.2
 
-  markdown-it-obsidian-callouts@0.3.3(markdown-it@14.1.1):
+  markdown-it-obsidian-callouts@0.3.4(markdown-it@14.1.1):
     dependencies:
       markdown-it: 14.1.1
 
@@ -2017,7 +2018,7 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
-      '@ungap/structured-clone': 1.3.0
+      '@ungap/structured-clone': 1.3.1
       devlop: 1.1.0
       micromark-util-sanitize-uri: 2.0.1
       trim-lines: 3.0.1
@@ -2135,11 +2136,11 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  oniguruma-parser@0.12.1: {}
+  oniguruma-parser@0.12.2: {}
 
-  oniguruma-to-es@4.3.4:
+  oniguruma-to-es@4.3.6:
     dependencies:
-      oniguruma-parser: 0.12.1
+      oniguruma-parser: 0.12.2
       regex: 6.1.0
       regex-recursion: 6.0.2
 
