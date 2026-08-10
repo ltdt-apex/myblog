@@ -19,7 +19,7 @@ cover: /img/index.webp
 ```
 
 
-### About Me
+<!-- ### About Me
 
 Hello 👋 I am a software engineer from Hong Kong 🇭🇰, currently actively looking for a job in Canada 🇨🇦, software engineer, machine learning engineer, full-stack developer, you name it.
 
@@ -31,5 +31,5 @@ This blog is just me sharing things I find interesting, mostly competitive progr
 
 I feel like one of the biggest reasons I started this blog is that I can't really find friends who are into the things I post about here. So if you read through and feel like we can hit the vibe, feel free to reach out 🙂. It would be crazy nice if you are also a Hongkonger who grinds LeetCode for fun.
 
-You can reach me by [email](mailto:brian.ltdt.soft@gmail.com).
+You can reach me by [email](mailto:brian.ltdt.soft@gmail.com). -->
 
