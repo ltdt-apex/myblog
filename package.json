@@ -26,6 +26,6 @@
     "hexo-theme-gnix": "^6.2.0",
     "hexo-theme-landscape": "^1.0.0",
     "markdown-exit-image": "^0.0.1",
-    "markdown-it-obsidian-callouts": "^0.3.3"
+    "markdown-it-obsidian-callouts": "^0.3.4"
   }
 }
